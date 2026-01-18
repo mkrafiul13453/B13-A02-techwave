@@ -209,3 +209,40 @@ hr{
     font-size: 30px;
     padding-bottom: 20px;
 }
+
+
+/* //////////////////////////////////////////////////////////<!-- Footer section style-->//////////////////////////////////////////////////////////////////////// */
+
+
+.full-footer{
+    text-align: center;
+    padding: 120px;
+    padding-left: 200px;
+    
+}
+
+.full-footer h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.footer-link{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 30px;
+    
+
+}
+
+
+.wave{
+    background:linear-gradient(90deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+
+}
+
+.footer{
+    background-image: url("./assets/footer-bg.png");
+    
+}
