@@ -233,6 +233,54 @@ hr{
 }
 
 
+/* ///////////////////////////////////////////////////////<!-- Featured section -->///////////////////////////////////////////////////////////////////////////// */
+.featured-heading{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.featured-box{
+  
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+
+.featured-box iframe{
+    width: 100%;
+    border-radius:10px ;
+}
+.featured-card{
+    background-color: rgba(37, 13, 68, 1);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width:30%;
+    height: 20%;
+}
+
+.featured-card h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.featured-card p{
+    padding-bottom: 10px;
+    
+}
+
+.fp{
+    color: #00ff88;
+    
+}
+
+
+
+
 /* //////////////////////////////////////////////////////<!-- Meet the host section -->//////////////////////////////////////////////////////////////// */
 .host-id{
     display: flex;
