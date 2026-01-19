@@ -54,8 +54,13 @@ body{
     font-size: 16px;
     color: white;
     border: none;
+    transition: transform 0.1s;
     
-    
+}
+
+
+.btn:hover{
+    transform: scale(1.3);
 }
 
 span{
@@ -89,7 +94,13 @@ hr{
     font-size: 16px;
     color: white;
     border: none;
+    transition: transform 0.1s;
 }
+.btn-3:hover{
+    transform: scale(1.1);
+}
+
+
 .btn-2{
     padding: 12px 20px;
     border-radius: 1000px;
@@ -97,8 +108,11 @@ hr{
     color: white;
     border: 1px solid #00ff88;
     background: none;
+    
 
 }
+
+
 
 .banner-heading{
     text-align: center;
@@ -108,7 +122,10 @@ hr{
 .banner-heading h1{
     padding-top: 120px;
     font-size: 50px;
+
 }
+
+
 
 .banner-heading p{
     padding-top: 10px;
@@ -131,6 +148,11 @@ hr{
     font-weight: bold;
     top: -16%;
     left: 54%;
+    transition: transform 0.1s;
+}
+
+.tooltip:hover{
+    transform: scale(1.4);
 }
 
 /* //////////////////////////////////////////////////////////////////<!-- About the podcast section style-->/////////////////////////////////////////////////////////////////////////////// */
@@ -161,8 +183,14 @@ hr{
 .podcast-rank h1{
 
     color: #00ff88;
+    transition: transform 0.1s;
 
 }
+
+.podcast-rank h1:hover{
+    transform: scale(1.5);
+}
+
 
 hr{
    margin-top: 60px;
@@ -199,11 +227,21 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    transition: transform 0.1s;
+}
+
+.chose-card:hover{
+    transform: scale(1.1);
 }
 
 .chose-card img {
     width: 40px;
     margin-bottom: 20px;
+    transition: transform 0.1s;
+}
+
+.chose-card img:hover{
+    transform: scale(1.5);
 }
 
 .chose-card h6 {
@@ -268,6 +306,11 @@ hr{
     padding: 15px;
     width:30%;
     height: 20%;
+    transition: transform 0.1s;
+}
+
+.featured-card:hover{
+    transform: scale(1.2);
 }
 
 .featured-card h3{
@@ -303,6 +346,11 @@ hr{
     padding: 10px;
     border-radius: 80%;
     background: none;
+    transition: transform 0.1s;
+}
+
+.host-id img:hover{
+    transform: scale(1.5);
 }
 
 
@@ -311,6 +359,12 @@ hr{
     height: 100%;
     border-radius: 50%;
     padding-top: 20px;
+    padding-bottom: 15px;
+    transition: transform 0.1s;
+}
+
+.host-pic:hover{
+    transform: scale(1.1);
 }
 
 .host-heading{
@@ -371,6 +425,15 @@ hr{
     
 
 }
+
+.footer-link p{
+    transition: transform 0.1s;
+}
+
+.footer-link p:hover{
+    transform: scale(1.3);
+}
+
 
 
 .wave{
